@@ -43,7 +43,7 @@ namespace kernel {
         cout << std::left << std::setw(5) << "Suce Code Kernel " kernel_VERSION " "
              << std::right << std::setw(11) <<  KERNEL_COR << endl
              << std::left << std::setw(5) << "Build in "  __DATE__  "   " __TIME__  << endl
-             << std::right << std::setw(20) << "Enter exit and clear to clear the contents" << endl;
+             << std::right << std::setw(20) << "Enter exit to exit" << endl;
         string input;
         cout << "/>> ";
         while (std::getline(cin, input)) {
